@@ -4,7 +4,7 @@
  *
  * C program that prints the size of various types
  * Warnings are allowed
- * Your program should return 0
+ * Return: 0
  *
  */
 int main(void)

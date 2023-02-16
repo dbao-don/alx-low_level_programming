@@ -7,7 +7,7 @@
  * You are not allowed to use any functions
  * listed in the NAME section of the
  * man (3) printf or man (3) puts
- * Your program should return 1
+ * Return: 1
  *
  */
 int main(void)
