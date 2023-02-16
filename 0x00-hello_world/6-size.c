@@ -1,14 +1,12 @@
 #include <stdio.h>
-
-/*
+/**
  * main - Entry Point
  *
  * C program that prints the size of various types
  * Warnings are allowed
  * Your program should return 0
  *
- * */
-
+ */
 int main(void)
 {
 	char a;
@@ -23,5 +21,5 @@ int main(void)
 	printf("Size of a long long int: %d byte(s)\n", sizeof(d));
 	printf("Size of a float: %d byte(s)\n", sizeof(e));
 
-	return(0);
+	return (0);
 }
