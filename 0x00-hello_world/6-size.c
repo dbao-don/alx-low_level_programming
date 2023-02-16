@@ -1,5 +1,14 @@
 #include <stdio.h>
 
+/*
+ * main - Entry Point
+ *
+ * C program that prints the size of various types
+ * Warnings are allowed
+ * Your program should return 0
+ *
+ * */
+
 int main(void)
 {
 	char a;
