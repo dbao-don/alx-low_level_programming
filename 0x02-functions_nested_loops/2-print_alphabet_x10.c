@@ -1,9 +1,22 @@
 #include "main.h"
 /**
- * main - Entry Point
- * Return:0
+ * print_alphabet_x10 - A function that prints
+ * the alphabet, in lowercase 10 times
  */
-int main(void)
+void print_alphabet_x10(void)
 {
-	return (0);
+	int j = 0;
+
+	while (j < 10)
+	{
+		int i = 97;
+
+		while (i <= 122)
+		{
+			_putchar(i);
+			i++;
+		}
+		_putchar('\n');
+		j++;
+	}
 }
