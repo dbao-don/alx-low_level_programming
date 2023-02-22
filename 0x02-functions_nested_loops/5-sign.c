@@ -1,9 +1,26 @@
 #include "main.h"
 /**
- * main - Entry Point
- * Return:0
+ * print_sign - A function
+ * that prints the sign
+ * of a number.
+ * @n: integer to check
+ * Return: 1, 0 or -1
  */
-int main(void)
+int print_sign(int n)
 {
-	return (0);
+	if (n > 0)
+	{
+		_putchar('+');
+		return (1);
+	}
+	else if (n == 0)
+	{
+		_putchar('0');
+		return (0);
+	}
+	else
+	{
+		_putchar('-');
+		return (-1);
+	}
 }
