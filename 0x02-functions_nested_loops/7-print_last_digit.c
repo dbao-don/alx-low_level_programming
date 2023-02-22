@@ -1,9 +1,18 @@
 #include "main.h"
 /**
- * main - Entry Point
- * Return:0
+ * print_last_digit - a function
+ * that prints the last digit
+ * of a number
+ * @c: value to check
+ * Return: last digit
  */
-int main(void)
+int print_last_digit(int c)
 {
-	return (0);
+	int i = c % 10;
+
+	if (i < 0)
+		i = -i;
+	c = i;
+	_putchar('0' + c);
+	return (c);
 }
