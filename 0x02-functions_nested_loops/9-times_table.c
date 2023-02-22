@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * main - Entry Point
+ * void times_table - prints
+ * 9 times table.
  * Return:0
  */
-int main(void)
+void times_table(void)
 {
 	return (0);
 }

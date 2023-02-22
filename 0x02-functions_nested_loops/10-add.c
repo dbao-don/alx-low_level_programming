@@ -1,9 +1,11 @@
 #include "main.h"
 /**
- * main - Entry Point
- * Return:0
+ * add - add two numbers
+ * @a: first number
+ * @b: second number
+ * Return: sum of two numbers
  */
-int main(void)
+int add(int a, int b)
 {
-	return (0);
+	return (a + b);
 }
