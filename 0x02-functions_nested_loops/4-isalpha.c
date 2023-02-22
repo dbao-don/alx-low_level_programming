@@ -1,9 +1,19 @@
 #include "main.h"
 /**
- * main - Entry Point
- * Return:0
+ * _isalpha - A function
+ * that checks for lowercase
+ * or uppercase character.
+ * @c: character to check
+ * Return: c
  */
-int main(void)
+int _isalpha(int c)
 {
-	return (0);
+	if (c >= 65 && c <= 122)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
