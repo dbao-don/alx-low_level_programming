@@ -1,9 +1,16 @@
 #include "main.h"
 /**
- * main - Entry Point
- * Return:0
+ * print_alphabet - A function that prints
+ * the alphabet, in lowercase.
  */
-int main(void)
+void print_alphabet(void)
 {
-	return (0);
+	int i = 97;
+
+	while (i <= 122)
+	{
+		_putchar(i);
+		i++;
+	}
+	_putchar('\n');
 }
