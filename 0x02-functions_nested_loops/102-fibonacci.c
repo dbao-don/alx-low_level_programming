@@ -6,20 +6,21 @@
  */
 int main(void)
 {
-	int i = 1, j = 1, k = 2, l;
+	int i = 1;
+	long int j = 1, k = 2, l;
 
-	printf("%d, %d, ", j, k);
+	printf("%ld, %ld, ", j, k);
 
-	while (i <= 48)
+	while (i < 48)
 	{
 		l = j + k;
-		printf("%d, ", l);
+		printf("%ld, ", l);
 		j = k;
 		k = l;
 		i++;
 	}
 	l = j + k;
-	printf("%d\n", l);
+	printf("%ld\n", l);
 	return (0);
 }
 
