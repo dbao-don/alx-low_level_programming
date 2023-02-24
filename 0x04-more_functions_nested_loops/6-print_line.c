@@ -2,7 +2,7 @@
 /**
  * print_line - function that
  * draws a straight line
- * @n: length of line
+ * @n: number of times to print _
  * Return: void
  */
 void print_line(int n)
@@ -11,7 +11,7 @@ void print_line(int n)
 
 	if (n > 0)
 	{
-		for (i = 0; i <= n; i++) 
+		for (i = 0; i <= n; i++)
 		{
 			_putchar('_');
 		}
