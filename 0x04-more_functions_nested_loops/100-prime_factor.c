@@ -11,7 +11,7 @@ int main(void)
 	long num = 612852476143;
 	long factor = 2;
 
-	while (factor <= sqrt(num))
+	while (factor != num)
 	{
 		if (num % factor == 0)
 		{
@@ -22,8 +22,6 @@ int main(void)
 			factor++;
 		}
 	}
-	if (num > 1)
-		factor = num;
 	printf("%ld\n", num);
 	return (0);
 }
