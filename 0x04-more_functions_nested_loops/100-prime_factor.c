@@ -22,6 +22,8 @@ int main(void)
 			factor++;
 		}
 	}
+	if (num > 1)
+		factor = num;
 	printf("%ld\n", num);
 	return (0);
 }
