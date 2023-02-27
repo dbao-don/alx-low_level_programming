@@ -16,11 +16,9 @@ void rev_string(char *s)
 	}
 	a = a - 1;
 
-	char *c;
 	for (b = a; b >= 0 ; b--)
 	{
-		*(c + a) = *(s + b);
+		*(s + a) = *(s + b);
 		a--;
 	}
-	*s = *c;
 }
