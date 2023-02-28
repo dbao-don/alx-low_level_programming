@@ -13,7 +13,7 @@ void puts_half(char *str)
 
 	if (len % 2 != 0)
 	{
-		len--;
+		len++;
 	}
 	counter = len / 2;
 	for (; counter < len; counter++)
