@@ -1,17 +1,23 @@
 #include "main.h"
 /**
+ * _strlen - a function that returns
+ * the length of a string.
+ * @s: value of string pointer
+ * Return: integer
+ */
+int _strlen(char *s);
+/**
  * rev_string - a function that
  * reverses a string.
  * @s: string pointer
  * Return: void
  */
-int _strlen(char *s);
 void rev_string(char *s)
 {
 	int a = _strlen(s);
 	char *start = s;
 	char *end = s + a - 1;
-	
+
 	while (start < end)
 	{
 		char temp = *start;
