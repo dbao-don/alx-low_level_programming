@@ -1,10 +1,4 @@
 #include "main.h"
-/**
- * _strlen - a function that returns
- * the length of a string.
- * @s: value of string pointer
- * Return: integer
- */
 int _strlen(char *s);
 /**
  * rev_string - a function that
@@ -27,6 +21,12 @@ void rev_string(char *s)
 		end--;
 	}
 }
+/**
+ * _strlen - a function that returns
+ * the length of a string.
+ * @s: value of string pointer
+ * Return: integer
+ */
 int _strlen(char *s)
 {
 	int a = 0;
