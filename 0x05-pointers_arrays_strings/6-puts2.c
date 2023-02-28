@@ -1,4 +1,5 @@
 #include "main.h"
+int _strlen(char *s);
 /**
  * puts2 -  a function that prints
  * every other character of a string
@@ -7,12 +8,27 @@
  */
 void puts2(char *str)
 {
-	int i = 0;
+	int counter = 0;
+	int len = _strlen(str);
 
-	while (*(str + i) != '\0')
+	while (counter <= len && *(str + counter) != '\0')
 	{
-		_putchar(*(str + i));
-		i += 2;
+		_putchar(*(str + counter));
+		counter += 2;
 	}
 	_putchar('\n');
+}
+/**
+ * _strlen - a function that returns
+ * the length of a string.
+ * @s: value of string pointer
+ * Return: integer
+ */
+int _strlen(char *s)
+{
+	int a = 0;
+
+	while (*(s + a) != '\0')
+		a++;
+	return (a);
 }
