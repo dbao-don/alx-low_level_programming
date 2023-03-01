@@ -32,3 +32,5 @@ _putchar.c
 0x02-functions_nested_loops/9-times_table.c
 0x06-pointers_arrays_strings/0-main.c
 0x06-pointers_arrays_strings/0-strcat
+0x06-pointers_arrays_strings/1-main.c
+0x06-pointers_arrays_strings/1-strncat
