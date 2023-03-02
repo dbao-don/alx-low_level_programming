@@ -15,14 +15,15 @@ void reverse_array(int *a, int n)
 	int i = 0;
 	int k = 0;
 	int j[40];
+	int l;
 
 	for (; i < n && n != '\0'; i++)
 		j[i] = a[i];
 	n--;
-	for (; k <= n; k++)
+	l = n;
+	for (; k <= l; k++)
 	{
-		printf("%d ", j[n]);
-		a[i] = j[n];
+		a[k] = j[n];
 		n--;
 	}
 }
