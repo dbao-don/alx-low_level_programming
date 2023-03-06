@@ -58,3 +58,4 @@ _putchar.c
 0x07-pointers_arrays_strings/0-memset
 0x07-pointers_arrays_strings/1-memcpy
 0x07-pointers_arrays_strings/2-strchr
+0x07-pointers_arrays_strings/7-print_chessboard
