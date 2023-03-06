@@ -6,7 +6,7 @@ This repository contains a collection of files related to an introduction to low
 * [Usage](#usage)
 * [Features](#features)
 * [Techonology](#technology)
-* [Contents](#contents)
+* [Sections](#Sections)
 * [Contact](#contact)
 * [Licence](#licence)
 ## Usage
@@ -19,7 +19,7 @@ The source code (.c) contain solutions relate to fundamental programming concept
 * Vim & Vi
 * Emacs
 * Betty Style Guide
-## Contents
+## Sections
 * 0x00-hello_world
 * 0x01-variables_if_else_while
 * 0x02-functions_nested_loops
