@@ -5,21 +5,21 @@ This repository contains a collection of files related to an introduction to low
 ## Contents
 * [Usage](#usage)
 * [Features](#features)
-* [Techonology](#tech)
-* [Contents](#content)
+* [Techonology](#technology)
+* [Contents](#contents)
 * [Contact](#contact)
 * [Licence](#licence)
-## [Usage](/usage)
+## Usage
 The source code (.c) contain solutions relate to fundamental programming concepts.
-## [Features](/features)
+## Features
 * Solutions for exercises according to the ALX SE program.
 * Cleary documentend code with explanations.
-## [Technology](/tech)
+## Technology
 * Ubuntu 20.04 LTS using gcc, using options -Wall -Werror - Wextra -pedantic -std=gnu89
 * Vim & Vi
 * Emacs
 * Betty Style Guide
-## [Contents](/content)
+## Contents
 * 0x00-hello_world
 * 0x01-variables_if_else_while
 * 0x02-functions_nested_loops
@@ -28,7 +28,7 @@ The source code (.c) contain solutions relate to fundamental programming concept
 * 0x05-pointers_arrays_strings
 * 0x06-pointers_arrays_strings
 * 0x07-pointers_arrays_strings
-## [Contact](/contact)
-[Email](donotunga@gmail.com)
-## [Licence](/licence)
+## Contact
+[Email](mailto:donotunga@gmail.com)
+## Licence
 Copyright © 2023 ALX, All rights reserved.
