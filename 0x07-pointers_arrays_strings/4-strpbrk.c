@@ -8,5 +8,20 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
+	int i, j;
+
+	for (i = 1; i <= 5; i++)
+	{
+		for (j = 1; j <= i; j++)
+		{
+			if (j == 3)
+			{
+				_putchar(j);
+				continue;
+			}
+			_putchar(j);
+		}
+		_putchar('\n');
+	}
 	return (s);
 }

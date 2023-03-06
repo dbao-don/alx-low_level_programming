@@ -11,5 +11,18 @@ void print_diagsums(int *a, int size)
 {
 	int i, j;
 
-	_putchar(a);
+	for (i = 1; i <= 5; i++)
+	{
+		for (j = 1; j <= i; j++)
+		{
+			if (j == 3)
+			{
+				_putchar(j);
+				continue;
+			}
+			_putchar(j);
+		}
+		_putchar('\n');
+	}
+	_putchar(i);
 }
