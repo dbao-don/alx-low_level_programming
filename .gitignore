@@ -60,4 +60,5 @@ _putchar.c
 0x07-pointers_arrays_strings/2-strchr
 0x07-pointers_arrays_strings/3-strspn
 0x07-pointers_arrays_strings/4-strpbrk
+0x07-pointers_arrays_strings/5-strstr
 0x07-pointers_arrays_strings/7-print_chessboard
