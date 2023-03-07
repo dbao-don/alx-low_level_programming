@@ -8,20 +8,17 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int i, j;
-
-	for (i = 1; i <= 5; i++)
+	unsigned int i = 0;
+	char *p;
+	while (*s)
 	{
-		for (j = 1; j <= i; j++)
-		{
-			if (j == 3)
-			{
-				_putchar(j);
-				continue;
-			}
-			_putchar(j);
-		}
-		_putchar('\n');
+		p = accept;
+		while (*p && *p != *s)
+			p++;
+		if (!*p)
+			break;
+		i++;
+		s++;
 	}
-	return (s);
+	return (i);
 }
