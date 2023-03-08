@@ -63,3 +63,17 @@ _putchar.c
 0x07-pointers_arrays_strings/5-strstr
 0x07-pointers_arrays_strings/7-print_chessboard
 0x07-pointers_arrays_strings/8-print_diagsums
+0x08-recursion/0-main.c
+0x08-recursion/0-puts_recursion
+0x08-recursion/1-main.c
+0x08-recursion/1-print_rev_recursion
+0x08-recursion/2-main.c
+0x08-recursion/2-strlen_recursion
+0x08-recursion/3-main.c
+0x08-recursion/3-factorial
+0x08-recursion/4-main.c
+0x08-recursion/4-pow_recursion
+0x08-recursion/5-main.c
+0x08-recursion/5-sqrt_recursion
+0x08-recursion/6-main.c
+0x08-recursion/6-is_prime_number
