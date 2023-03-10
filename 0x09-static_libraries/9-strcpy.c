@@ -1,18 +1,19 @@
 #include "main.h"
 /**
- * _abs - a function that computes
- * the absolute value of an integer.
- * @c: value to check
- * Return: integer
+ * _strcpy - a function that copies
+ * the string pointed to by src,
+ * including the terminating null
+ * byte (\0), to the buffer
+ * pointed to by dest.
+ * @dest: pointer to character
+ * @src: pointer to string
+ * Return: pointer to dest
  */
-int _abs(int c)
+char *_strcpy(char *dest, char *src)
 {
-	if (c < 0)
-	{
-		return (-c);
-	}
-	else
-	{
-		return (c);
-	}
+	char *c = dest;
+
+	while
+		((*dest++ = *src++));
+	return (c);
 }
