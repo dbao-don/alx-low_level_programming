@@ -1,25 +1,5 @@
 # C Programming
-C Introduction to Low Level Programming
-## Description
-This repository contains a collection of files related to introduction to low level Programming with C.
-## Contents
-* [Usage](#usage)
-* [Features](#features)
-* [Techonology](#technology)
-* [Sections](#Sections)
-* [Contact](#contact)
-* [Licence](#licence)
-## Usage
-The source code (.c) contain solutions related to the fundamentals of programming concepts.
-## Features
-* Solutions for exercises according to the ALX SE program.
-* Clearly documentend code with explanations.
-## Technology
-* Ubuntu 20.04 LTS 
-- Using gcc, using options -Wall -Werror - Wextra -pedantic -std=gnu89
-* Vim & Vi
-* Emacs
-* Betty Style Guide
+This repository contains a collection of files related to introduction to low level Programming with C. The source code (.c) contain solutions related to the fundamentals of programming concepts. The solutions for exercises are according to the ALX SE program. The code is clearly documentend code with explanations.
 ## Sections
 * 0x00-hello_world
 * 0x01-variables_if_else_while
@@ -30,8 +10,6 @@ The source code (.c) contain solutions related to the fundamentals of programmin
 * 0x06-pointers_arrays_strings
 * 0x07-pointers_arrays_strings
 * 0x08-recursion
-## Contact
-Donbosco A Otunga  
-[Email](mailto:donotunga@gmail.com)
-## Licence
-Copyright © 2023 ALX, All rights reserved.
+* 0x09-static_libraries
+#### Licence
+_Copyright © 2023 ALX, All rights reserved._
