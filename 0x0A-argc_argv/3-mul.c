@@ -8,9 +8,9 @@
  */
 int main(int argc, char **argv)
 {
-	int i = 0, mul = 1;
+	int i, mul = 1;
 
-	if (i == argc - 1)
+	if (argc < 3)
 	{
 		printf("Error\n");
 		return (1);
