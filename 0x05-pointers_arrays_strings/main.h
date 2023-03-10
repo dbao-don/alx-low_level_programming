@@ -1,9 +1,10 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
 
-int _putchar(char c);
 char *_strcpy(char *dest, char *src);
+int _atoi(char *s);
 int _strlen(char *s);
+int _putchar(char c);
 void _puts(char *str);
 void print_rev(char *s);
 void print_array(int *a, int n);
