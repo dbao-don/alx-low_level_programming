@@ -9,21 +9,24 @@
  */
 int main(int argc, char **argv)
 {
-	int i, j = 0;
+	int sum = 0;
+	int i;
 
-	if (argc == 1 && argv != NULL)
+	for (i = 1; i < argc; i++)
 	{
-		printf("%d\n", 0);
-		return (0);
-	}
-	for (i = 1; i < argc; i++)
-		if (!isdigit(*(argv[i])))
+		char *arg = argv[i];
+		int j;
+
+		for (j = 0; arg[j] != '\0'; j++)
 		{
-			printf("Error\n");
-			return (1);
+			if (!isdigit(arg[j]))
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
-	for (i = 1; i < argc; i++)
-		j = j + atoi(argv[i]);
-	printf("%d\n", j);
+		sum += atoi(arg);
+	}
+	printf("%d\n", sum);
 	return (0);
 }
