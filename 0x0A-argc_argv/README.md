@@ -8,3 +8,4 @@ This repository contains C programs that make use of the command-line arguments 
 | 2-args.c | a program that prints all arguments it receives. |
 | 3-mul.c |  a program that multiplies two numbers. |
 | 4-add.c | a program that adds positive numbers. |
+| 100-change.c | a program that prints the minimum number of coins to make change for an amount of money |
