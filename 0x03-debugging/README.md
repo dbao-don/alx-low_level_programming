@@ -1,6 +1,6 @@
 # 0x03. C - Debugging
 This section contains a series of debugged programs. The aim is to teach the use debugging tools and techniques to identify and fix common programming errors such as logical errors, syntax errors, and runtime errors.
-# Tasks
+## Tasks
 | Task | Description |
 |:--|:--|
 | 0-main.c | Create a file named 0-main.c. This file must test that the function positive_or_negative() gives the correct output when given a case of 0. |
