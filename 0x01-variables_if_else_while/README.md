@@ -2,7 +2,7 @@
 This section contains a collection of programs that focus on the use of variables, conditional statements, and loops. The programs aim to teach beginners the fundamentals of programming logic and control flow in C.
 ## Tasks
 | Task | Description |
-|---|---|
+|:--|:--|
 | 0-positive_or_negative.c | This program will assign a random number to the variable n each time it is executed. |
 | 1-last_digit.c | This program will assign a random number to the variable n each time it is executed. |
 | 2-print_alphabet.c | Program that prints the alphabet in lowercase, followed by a new line. |
