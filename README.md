@@ -13,4 +13,4 @@ This repository contains a collection of files related to introduction to low le
 * [0x09-static_libraries](https://github.com/dbao-don/alx-low_level_programming/tree/master/0x09-static_libraries)
 * [0x0A-argc_argv](https://github.com/dbao-don/alx-low_level_programming/tree/master/0x0A-argc_argv)
 #### Licence
-<small>Copyright © 2023 ALX, All rights reserved.</small>
+<small style="font-size: 75%;">Copyright © 2023 ALX, All rights reserved.</small>
