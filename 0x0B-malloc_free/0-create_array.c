@@ -12,10 +12,9 @@ char *create_array(unsigned int size, char c)
 	unsigned int i;
 	char *temp;
 
-	if (size == 0)
-		return (NULL);
-
 	temp = malloc(sizeof(char) * size);
+	if (size == 0 || temp == NULL)
+		return (NULL);
 
 	for (i = 0; i < size; i++)
 		temp[i] = c;
