@@ -1,4 +1,5 @@
 # 0x0D-preprocessor
+This section contains C language programs focused on the preprocessor directives, which are a set of instructions that are executed before the compilation process. These programs cover topics such as macros, conditional compilation, file inclusion, and other preprocessor-related concepts.
 ## Tasks
 | Task | Description |
 |:--|:--|
