@@ -6,7 +6,7 @@
  * @argv: command line arguments
  * Return: 0
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int i, j;
 	char *array;
@@ -30,7 +30,7 @@ int main(int argc, char **argv)
 			printf("%02hhx\n", array[j]);
 			break;
 		}
-		printf("%02hhx ", array[i]);
+		printf("%02hhx ", array[j]);
 	}
 	return (0);
 }
