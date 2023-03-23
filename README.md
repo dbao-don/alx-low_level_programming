@@ -17,5 +17,5 @@ This repository contains a collection of files related to introduction to low le
 * [0x0D-preprocessor](https://github.com/dbao-don/alx-low_level_programming/tree/master/0x0D-preprocessor)
 * [0x0E-structures_typedef](https://github.com/dbao-don/alx-low_level_programming/tree/master/0x0E-structures_typedef)
 * [0x0F-function_pointers](https://github.com/dbao-don/alx-low_level_programming/tree/master/0x0F-function_pointers)
-* [0x10-variadic_functions]()
+* [0x10-variadic_functions](https://github.com/dbao-don/alx-low_level_programming/tree/master/0x10-variadic_functions)
 ###### Copyright © 2023 ALX, All rights reserved.
