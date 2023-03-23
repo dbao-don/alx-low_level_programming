@@ -4,6 +4,7 @@
 /**
  * print_numbers - a functions that prints numbers
  * followed by a new line.
+ * @separator: separator for numbers
  * @n: positive counter for all the numbers
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
