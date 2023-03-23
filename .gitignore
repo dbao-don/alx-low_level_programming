@@ -136,3 +136,11 @@ _putchar.c
 0x0F-function_pointers/calc
 0x0F-function_pointers/main
 0x0F-function_pointers/*.copy
+0x10-variadic_functions/0-main.c
+0x10-variadic_functions/a
+0x10-variadic_functions/1-main.c
+0x10-variadic_functions/b
+0x10-variadic_functions/2-main.c
+0x10-variadic_functions/c
+0x10-variadic_functions/3-main.c
+0x10-variadic_functions/d
