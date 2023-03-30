@@ -1,4 +1,5 @@
-*.sw
+*.sw*
+*.copy*
 _putchar.c
 0x02-functions_nested_loops/1-main.c
 0x02-functions_nested_loops/2-main.c
@@ -144,3 +145,13 @@ _putchar.c
 0x10-variadic_functions/c
 0x10-variadic_functions/3-main.c
 0x10-variadic_functions/d
+0x12-singly_linked_lists/0-main.c
+0x12-singly_linked_lists/a
+0x12-singly_linked_lists/1-main.c
+0x12-singly_linked_lists/b
+0x12-singly_linked_lists/2-main.c
+0x12-singly_linked_lists/c
+0x12-singly_linked_lists/3-main.c
+0x12-singly_linked_lists/d
+0x12-singly_linked_lists/4-main.c
+0x12-singly_linked_lists/e
