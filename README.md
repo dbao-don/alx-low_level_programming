@@ -19,5 +19,5 @@ This repository contains a collection of files related to introduction to low le
 * [0x0F-function_pointers](https://github.com/dbao-don/alx-low_level_programming/tree/master/0x0F-function_pointers)
 * [0x10-variadic_functions](https://github.com/dbao-don/alx-low_level_programming/tree/master/0x10-variadic_functions)
 * [0x12-singly_linked_lists](https://github.com/dbao-don/alx-low_level_programming/tree/master/0x12-singly_linked_lists)
-* [0x13-more_singly_linked_lists](#0x13-more_singly_linked_lists)
+* [0x13-more_singly_linked_lists](/tree/master/0x13-more_singly_linked_lists)
 ###### Copyright © 2023 ALX, All rights reserved.
