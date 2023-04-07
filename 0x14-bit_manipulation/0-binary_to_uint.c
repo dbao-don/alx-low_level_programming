@@ -44,10 +44,11 @@ unsigned int binary_to_uint(const char *b)
 unsigned int power(unsigned int base, unsigned int exp)
 {
 	unsigned int result = 1;
+
 	while (exp > 0)
 	{
 		result *= base;
 		exp--;
 	}
-	return result;
+	return (result);
 }
