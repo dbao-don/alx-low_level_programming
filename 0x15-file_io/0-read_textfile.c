@@ -11,8 +11,7 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	ssize_t printed = 0;
-	size_t i;
-	FILE *fh_input;
+	int fh_input;
 	char *s;
 
 	if (filename == NULL)
@@ -21,17 +20,26 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (s == NULL)
 		return (0);
 
-	fh_input = fopen(filename, "r");
-	if (fh_input == NULL)
-		return (0);
-	for (i = 0; i < letters; i++)
-		fscanf(fh_input, "%c", &s[i]);
-	while (s[printed] != '\0')
+	fh_input = open(filename, O_RDONLY);
+	if (fh_input == -1)
 	{
-		putchar(s[printed]);
-		printed++;
+		free(s);
+		return (0);
 	}
-	fclose(fh_input);
+	printed = read(fh_input, s, letters);
+	if (printed == -1)
+	{
+		free(s);
+		close(fh_input);
+		return (0);
+	}
+	if (write(STDOUT_FILENO, s, printed) == -1)
+	{
+		free(s);
+		close(fh_input);
+		return (0);
+	}
+	close(fh_input);
 	free(s);
 
 	return (printed);
