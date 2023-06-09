@@ -10,4 +10,5 @@ This repository contains a collection of files related to introduction to low le
 * [0x06-pointers_arrays_strings](https://github.com/dbao-don/alx-low_level_programming/tree/master/0x06-pointers_arrays_strings)
 * [0x07-pointers_arrays_strings](https://github.com/dbao-don/alx-low_level_programming/tree/master/0x07-pointers_arrays_strings)
 * [0x08-recursion](https://github.com/dbao-don/alx-low_level_programming/tree/master/0x08-recursion)
+* [0x09-static_libraries](https://github.com/dbao-don/alx-low_level_programming/tree/master/0x09-static_libraries)
 ###### Copyright © 2023 ALX, All rights reserved.

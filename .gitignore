@@ -1,4 +1,5 @@
 *.sw*
+*.o
 *.copy*
 _putchar.c
 0x02-functions_nested_loops/1-main.c
