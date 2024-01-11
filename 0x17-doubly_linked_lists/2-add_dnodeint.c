@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * add_dnodeint - a function that adds a new node at the beginning of a dlistint_t list.
+ * add_dnodeint - a function that adds a new node at the beginning of a dll
  * @head: double pointer to the head of the list
  * @n: value to be added
  *
@@ -10,7 +10,7 @@ dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 	dlistint_t *new_node = malloc(sizeof(dlistint_t));
 
-	if(new_node == NULL)
+	if (new_node == NULL)
 		return (NULL);
 
 	new_node->n = n;

@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * add_dnodeint_end - a function that adds a new node at the end of a dlistint_t list.
+ * add_dnodeint_end - a function that adds a new node at the end of a dll
  * @head: double pointer to the head of the list
  * @n: value to be added
  *
@@ -24,7 +24,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	else
 	{
 		aux = *head;
-		while(aux->next != NULL)
+		while (aux->next != NULL)
 			aux = aux->next;
 		aux->next = new_node;
 		new_node->prev = aux;
